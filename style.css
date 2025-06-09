@@ -29,7 +29,6 @@ canvas {
   border: none;
   background-color: #222;
   color: white;
-  user-select: none;
   transition: background-color 0.2s;
 }
 
@@ -46,7 +45,6 @@ canvas {
   color: white;
   border: none;
   cursor: pointer;
-  user-select: none;
   transition: background-color 0.2s;
 }
 

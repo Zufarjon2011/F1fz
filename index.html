@@ -8,14 +8,16 @@
 <body>
   <canvas id="gameCanvas" width="400" height="600"></canvas>
 
-  <!-- Кнопки-стрелки -->
   <div id="controls">
     <button id="leftBtn">⬅️</button>
     <button id="rightBtn">➡️</button>
   </div>
 
-  <!-- Кнопка рестарт, скрыта пока игра не закончена -->
   <button id="restartBtn" style="display:none;">Restart</button>
+
+  <audio id="engineSound" src="sounds/f1motor.wav" loop></audio>
+  <audio id="crashSound" src="sounds/crashvoice.wav"></audio>
+  <audio id="bonusSound" src="sounds/bonus.wav"></audio>
 
   <script src="script.js"></script>
 </body>
